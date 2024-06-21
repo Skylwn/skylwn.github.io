@@ -1,5 +1,5 @@
 * [首页](zh-cn/) 
-
+* [共享文件夹(每日更新)](post/day_share.md)
 * [指南](zh-cn/guide)
 * 环境安装和库安装
     * [基础环境安装](post/basic/environment_install)
