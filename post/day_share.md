@@ -1,4 +1,5 @@
-## 每日文件更改详情
+## 文件目录
+
 ```cmd
 实训共享文件夹
     ├─day1
@@ -28,7 +29,10 @@
     │      pandas_base.py
     │      yahei.ttf
     │      
-    └─day4
-           carUser_data_predict.zip
-           debt_data_predict.zip
+    ├─day4
+    │      carUser_data_predict.zip
+    │      debt_data_predict.zip
+    │      
+    └─day5
+            特征选择.pptx
 ```
