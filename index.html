@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.6.0/style.min.css" />
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+  <!-- 添加页面滚动条 -->
+  <style type="text/css">
+    .content {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+
+
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: '',
+    }
+  </script>
+
+
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script>
+    window.$docsify = {
+      // 侧边栏选项
+      loadSidebar: true,
+
+      subMaxLevel: 2,
+
+      // 封面选项
+      coverpage: true,
+      copyCode: {
+        buttonText: '点击复制',
+        errorText: '复制失败!',
+        successText: '复制成功!',
+      },
+    }
+  </script>
+
+
+
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="https://unpkg.com/docsify-copy-code@2"></script>
+</body>
+
+</html>
